@@ -1,0 +1,48 @@
+BODY { color: Black;
+       /*background: #F5F5DC;*/
+       margin-right: 10%;
+       margin-left: 10%;
+       font-family: "Georgia", serif;
+       text-align: justify;
+       background-image : url(../images/whitenoise2.png);
+       line-height: 20px;
+
+     }
+/*http://api.thumbr.it/whitenoise-361x370.png?background=ffffffff&noise=5c5c5c&density=13&opacity=62*/
+/*note i modified this file to be beige
+*/
+
+/*https://sep.yimg.com/ay/yhst-91547409642223/hotel-transylvania-2-count-dracula-cosplay-13.gif*/
+
+P {text-indent: 4% }
+
+P.noindent {text-indent: 0% }
+
+P.poem {text-indent: 0%;
+        margin-left: 10%;
+        font-size: small;
+        line-height: 20px; }
+
+P.letter {font-size: small ;
+          margin-left: 10% ;
+          margin-right: 10%;
+          line-height: 20px; }
+
+P.finis { text-align: center ;
+          text-indent: 0% ;
+          margin-left: 0% ;
+          margin-right: 0%;
+          line-height: 20px; }
+
+
+
+.preword {text-align:left;text-indent:0%;line-height: 12px;}
+.chapters {text-align:center;text-indent:0%;}
+.image {text-align:left;text-indent:0%;line-height: 12px;}
+.note {text-align:left;text-indent:0%;line-height: 16px;font-size: small;}
+.bigger {text-align: center;font-size: x-large; ;margin-left: 10% ;margin-right: 10%;}
+
+
+.center { text-align: center ;}
+
+
