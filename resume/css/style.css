@@ -1,12 +1,27 @@
+/*
+
+note
+
+this css seems to work with firefox and chrome, 
+but some of the scaling does now with edge
+
+used https://www.canva.com/learn/website-color-schemes/
+for colour scheme
+
+*/
+
 BODY{
-    background-color: #F7F5E6;
+    background-color: #efefef;
     /*font-family: "Times New Roman", serif;*/
     font-family: Arial,Helvetica Neue,Helvetica,sans-serif; 
+    color: Black
 }
 
 header {
 	position: relative;
-    background-color: #8FD8D2;
+    /*background-color: #ffffff;*/
+        background-color: #8FD8D2;
+
     background-size: cover;
     height: 240px;
     display: flex;   
@@ -16,44 +31,35 @@ header {
 
 h1{
   font-size: 78px;
-  text-shadow: 7px 5px 11px rgba(0,0,0,0.25);
+  /*text-shadow: 7px 5px 11px rgba(0,0,0,0.25);*/
   line-height: 32px;
-  /*text-shadow: 2px 2px #ff0000;*/
 }
 
 
 .spec { 
     color: Black;
-    margin-left: 20%;
+    margin-left: 15%;
         display: flex;   
     flex-wrap: nowrap;
     white-space:nowrap;
     align-content: stretch;
 
+
 }
 
 .one { 
     white-space:nowrap;
-    /*width: 300px;*/
     float: left;
-    /*flex-flow: flex-wrap*/ ;
     margin-right: 15%;
 }
 
 .two { 
-    /*white-space:nowrap;*/
-/*    display: inline-block;
-*/
-    /*width: 300px;*/
     float: right;
-    /*margin-right: 20%;*/
-    background-color: #52658F;
-    /*background-size: cover;*/
+    background-color: #ff383f;
     text-align: center;
     padding: 25px;
-    height:700px;
+    height:650px;
 
-    /*flex-flow:column wrap;*/
 
 }
 
