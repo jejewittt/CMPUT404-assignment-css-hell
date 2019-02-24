@@ -1,0 +1,82 @@
+BODY{
+    background-color: #F7F5E6;
+    /*font-family: "Times New Roman", serif;*/
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif; 
+}
+
+header {
+	position: relative;
+    background-color: #8FD8D2;
+    background-size: cover;
+    height: 120px;
+}
+
+.spec { 
+    color: Black;
+    margin-right: 10%;
+    margin-left: 10%;
+    white-space:nowrap;
+    width: 800px;
+}
+
+
+.one { 
+    white-space:nowrap;
+    width: 300px;
+    float: left;
+
+}
+.two { 
+    white-space:nowrap;
+    width: 200px;
+    float: right;
+    
+}
+
+.image{
+  height: 120px;
+  border-radius: 25% 25% 50% 50% / 40%;
+  /*text-align:center */
+  /*top:120px;*/
+}
+
+.right{
+  position: relative; 
+  text-align:right;
+  top:-120px;
+}
+
+.center { 
+  text-align: center;
+  position: relative;
+  top: 25%;
+  transform: translateY(-25%); 
+  width: 85%;
+}
+
+/*footer {
+  position: relative;
+    background-color: #8FD8D2;
+    background-size: cover;
+    height: 120px;
+}
+*/
+
+.preword {text-align:left;text-indent:0%;line-height: 12px;}
+.chapters {text-align:center;text-indent:0%;}
+/*.image {text-align:left;text-indent:0%;line-height: 12px;}
+*/.note {text-align:left;text-indent:0%;line-height: 16px;font-size: small;}
+.bigger {text-align: center;font-size: x-large; ;margin-left: 10% ;margin-right: 10%;}
+
+/*https://stackoverflow.com/questions/5703552/css-center-text-horizontally-and-vertically-inside-a-div-block*/
+/*used to center align in a text box*/
+
+
+.copyright {text-align:left;text-indent:0%;font-style: italic;}
+
+
+.left{text-align:left;}
+.tab{text-indent: 50px;}
+.tab2{text-indent: 100px;}
+
+
