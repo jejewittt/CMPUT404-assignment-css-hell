@@ -19,32 +19,25 @@ BODY{
 
 header {
 	position: relative;
-    /*background-color: #ffffff;*/
-        background-color: #8FD8D2;
-
-    background-size: cover;
-    height: 240px;
-    display: flex;   
-    flex-wrap: nowrap;
-
+  background-color: #8FD8D2;
+  background-size: cover;
+  height: 240px;
+  display: flex;   
+  flex-wrap: nowrap;
 }
 
 h1{
   font-size: 78px;
-  /*text-shadow: 7px 5px 11px rgba(0,0,0,0.25);*/
   line-height: 32px;
 }
-
 
 .spec { 
     color: Black;
     margin-left: 15%;
-        display: flex;   
+    display: flex;   
     flex-wrap: nowrap;
     white-space:nowrap;
     align-content: stretch;
-
-
 }
 
 .one { 
@@ -59,21 +52,16 @@ h1{
     text-align: center;
     padding: 25px;
     height:650px;
-
-
 }
 
 .image{
   height: 240px;
   border-radius: 25% 25% 50% 50% / 40%;
-  /*text-align:center */
-  /*top:120px;*/
 }
 
 .right{
   position: relative; 
   text-align:right;
-  /*top:-240px;*/
 }
 
 .center { 
@@ -91,22 +79,12 @@ footer {
     height: 120px;
 }
 
-
-.preword {text-align:left;text-indent:0%;line-height: 12px;}
-.chapters {text-align:center;text-indent:0%;}
-/*.image {text-align:left;text-indent:0%;line-height: 12px;}
-*/.note {text-align:left;text-indent:0%;line-height: 16px;font-size: small;}
-.bigger {text-align: center;font-size: x-large; ;margin-left: 10% ;margin-right: 10%;}
+.tab{
+  text-indent: 50px;
+}
 
 /*https://stackoverflow.com/questions/5703552/css-center-text-horizontally-and-vertically-inside-a-div-block*/
 /*used to center align in a text box*/
 
-
-.copyright {text-align:left;text-indent:0%;font-style: italic;}
-
-
-.left{text-align:left;}
-.tab{text-indent: 50px;}
-.tab2{text-indent: 100px;}
 
 

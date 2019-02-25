@@ -1,0 +1,101 @@
+/*
+
+note
+
+this css seems to work with firefox and chrome, 
+but some of the scaling does now with edge
+
+used https://www.canva.com/learn/website-color-schemes/
+for colour scheme
+
+*/
+
+BODY{
+    /*background-color: #efefef;*/
+    /*font-family: "Times New Roman", serif;*/
+    font-family: "Comic Sans MS", cursive, sans-serif; 
+    color: red;
+    background-image : url(../image/cool.png);
+
+}
+
+header {
+
+	position: relative;
+      background-image : url(../image/james.png);
+
+  background-size: cover;
+  height: 240px;
+  display: flex;   
+  flex-wrap: nowrap;
+}
+
+h1{
+  font-size: 78px;
+  line-height: 32px;
+  -webkit-transform: rotate(-20deg);
+  
+}
+
+.spec { 
+	top: -49px;
+    color: yellow;
+    margin-left: 15%;
+    display: flex;   
+    flex-wrap: nowrap;
+    white-space:nowrap;
+    align-content: stretch;
+}
+
+.one { 
+	background-color: rgb(128,128,128,0.3);
+    white-space:nowrap;
+    float: left;
+    margin-right: 15%;
+    -webkit-transform: rotate(3deg);
+}
+
+.two { 
+
+    float: left;
+    background-color: #c7c10c;
+    text-align: center;
+    padding: 25px;
+    height:650px;
+    -webkit-transform: rotate(-3deg);
+}
+
+.image{
+  height: 24px;
+  border-radius: 99%;
+}
+
+.right{
+  position: relative; 
+  text-align:right;
+}
+
+.center { 
+  text-align: center;
+  position: relative;
+  top: 25%;
+  transform: translateY(-25%); 
+  width: 100%;
+}
+
+footer {
+  position: relative;
+    background-color: #8FD8D2;
+    background-size: cover;
+    height: 120px;
+}
+
+.tab{
+  text-indent: 300px;
+}
+
+/*https://stackoverflow.com/questions/5703552/css-center-text-horizontally-and-vertically-inside-a-div-block*/
+/*used to center align in a text box*/
+
+
+
